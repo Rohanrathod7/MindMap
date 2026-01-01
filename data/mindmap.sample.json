@@ -1,0 +1,116 @@
+{
+  "id": "root",
+  "label": "System Architecture",
+  "summary": "High-level overview of the system components",
+  "description": "This mindmap represents the major components and their relationships within the system. Each branch explores a different architectural concern.",
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-01-01"
+  },
+  "children": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "summary": "User-facing application layer",
+      "description": "The frontend handles all user interactions, rendering, and client-side state management. It communicates with backend services via APIs.",
+      "metadata": {
+        "status": "active",
+        "owner": "UI Team"
+      },
+      "children": [
+        {
+          "id": "frontend-components",
+          "label": "Components",
+          "summary": "Reusable UI building blocks",
+          "description": "Modular components that can be composed to build complex interfaces. Each component manages its own rendering logic."
+        },
+        {
+          "id": "frontend-state",
+          "label": "State Management",
+          "summary": "Client-side data handling",
+          "description": "Centralized state that drives the UI. Changes to state trigger re-renders of affected components."
+        },
+        {
+          "id": "frontend-routing",
+          "label": "Routing",
+          "summary": "Navigation between views",
+          "description": "Maps URLs to specific views and handles browser history integration."
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "summary": "Server-side processing and data",
+      "description": "The backend processes requests, enforces business logic, and manages data persistence. It exposes APIs consumed by the frontend.",
+      "metadata": {
+        "status": "active",
+        "owner": "Platform Team"
+      },
+      "children": [
+        {
+          "id": "backend-api",
+          "label": "API Layer",
+          "summary": "Request handling and routing",
+          "description": "Receives incoming requests, validates input, and routes to appropriate handlers. Returns structured responses.",
+          "children": [
+            {
+              "id": "backend-api-rest",
+              "label": "REST Endpoints",
+              "summary": "Resource-based HTTP interface",
+              "description": "Standard REST endpoints for CRUD operations on system resources."
+            },
+            {
+              "id": "backend-api-validation",
+              "label": "Validation",
+              "summary": "Input sanitization and checks",
+              "description": "Ensures incoming data meets expected formats and constraints before processing."
+            }
+          ]
+        },
+        {
+          "id": "backend-services",
+          "label": "Services",
+          "summary": "Core business logic",
+          "description": "Contains the main application logic. Services are called by the API layer and interact with the data layer."
+        },
+        {
+          "id": "backend-data",
+          "label": "Data Layer",
+          "summary": "Database and storage access",
+          "description": "Abstracts database operations. Handles queries, transactions, and data mapping."
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "label": "Infrastructure",
+      "summary": "Deployment and operations",
+      "description": "The infrastructure layer covers hosting, deployment pipelines, monitoring, and operational concerns.",
+      "metadata": {
+        "status": "stable",
+        "owner": "DevOps Team"
+      },
+      "children": [
+        {
+          "id": "infra-hosting",
+          "label": "Hosting",
+          "summary": "Where the application runs",
+          "description": "Cloud or on-premise servers that host the application. Includes load balancing and scaling configuration."
+        },
+        {
+          "id": "infra-ci",
+          "label": "CI/CD",
+          "summary": "Build and deployment automation",
+          "description": "Automated pipelines that build, test, and deploy code changes to various environments."
+        },
+        {
+          "id": "infra-monitoring",
+          "label": "Monitoring",
+          "summary": "Observability and alerting",
+          "description": "Collects logs, metrics, and traces. Triggers alerts when anomalies are detected."
+        }
+      ]
+    }
+  ]
+}
