@@ -2,7 +2,7 @@
 
 A data-driven, interactive mindmap visualization built with React and Vite for a frontend development internship assignment.
 
-![Full Mindmap View](./screenshots/full_mindmap_view.png)
+![Full Mindmap View](./screenshots/Screenshot 2026-01-02 000454.png)
 
 
 
@@ -125,16 +125,16 @@ npm run preview
 ## 📸 Screenshots
 
 ### Hover Interaction
-![Hover Tooltip](./screenshots/hover_tooltip.png)
+![Hover Tooltip](./screenshots/Screenshot 2026-01-02 000454.png)
 
 ### Node Selection with Detail Panel
-![Selected Node](./screenshots/selected_with_panel.png)
+![Selected Node](./screenshots/Screenshot 2026-01-02 000502.png)
 
 ### Collapsed State
-![Collapsed](./screenshots/collapsed_state.png)
+![Collapsed](./screenshots/Screenshot 2026-01-02 000508.png)
 
 ### Expanded State
-![Expanded](./screenshots/expanded_state.png)
+![Expanded](./screenshots/Screenshot 2026-01-02 000514.png)
 
 ## 🎯 Key Interactions
 
