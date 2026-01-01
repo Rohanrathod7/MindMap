@@ -1,10 +1,16 @@
 # 🧠 Interactive Mindmap UI
 
+<p align="left">
+  <img src="https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react"/>
+  <img src="https://img.shields.io/badge/Vite-Build%20Tool-purple?style=flat-square&logo=vite"/>
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat-square&logo=javascript"/>
+  <img src="https://img.shields.io/badge/CSS-Vanilla-orange?style=flat-square&logo=css3"/>
+  <img src="https://img.shields.io/badge/Data--Driven-JSON-green?style=flat-square"/>
+</p>
+
 A data-driven, interactive mindmap visualization built with React and Vite for a frontend development internship assignment.
 
-![Full Mindmap View](./screenshots/Screenshot 2026-01-02 000454.png)
-
-
+![Full Mindmap View](./screenshots/full_view.png)
 
 ## ✨ Features
 
@@ -125,16 +131,16 @@ npm run preview
 ## 📸 Screenshots
 
 ### Hover Interaction
-![Hover Tooltip](./screenshots/Screenshot 2026-01-02 000454.png)
+![Hover Tooltip](./screenshots/hover_tooltip.png)
 
 ### Node Selection with Detail Panel
-![Selected Node](./screenshots/Screenshot 2026-01-02 000502.png)
+![Selected Node](./screenshots/selected_with_panel.png)
 
 ### Collapsed State
-![Collapsed](./screenshots/Screenshot 2026-01-02 000508.png)
+![Collapsed](./screenshots/collapsed_state.png)
 
 ### Expanded State
-![Expanded](./screenshots/Screenshot 2026-01-02 000514.png)
+![Expanded](./screenshots/expanded_state.png)
 
 ## 🎯 Key Interactions
 
@@ -158,8 +164,7 @@ MindMap/
 ├── docs/
 │   ├── prod-spec.md           # Product specification
 │   ├── eng-des.md             # Engineering design
-│   ├── data-contract.md       # JSON schema
-│   └── constraints.md         # Development constraints
+│   └── data-contract.md       # JSON schema
 ├── screenshots/               # UI screenshots
 ├── src/
 │   ├── components/
@@ -174,8 +179,6 @@ MindMap/
 ├── package.json
 └── README.md
 ```
-
-
 
 ---
 
