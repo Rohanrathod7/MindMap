@@ -4,6 +4,8 @@ A data-driven, interactive mindmap visualization built with React and Vite for a
 
 ![Full Mindmap View](./screenshots/full_mindmap_view.png)
 
+
+
 ## ✨ Features
 
 - **Data-Driven Rendering**: UI is generated entirely from a JSON data file
